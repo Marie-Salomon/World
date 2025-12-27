@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">    
+  <link rel="stylesheet" href="le_monde.css">
+  <title>America</title>
+  <meta name="author" content="Marie Salomon">
+</head>
+<body>
+  <div class="conteneur">
+	<h1>South America</h1>
+    <header>
+      The data and illustrations presented on this page come from,
+      <a href="https://fr.wikipedia.org/wiki/Am%C3%A9rique_du_Sud">using this query.</a><p>
+    </header>
+<div class="petit"><img src="cartes/R (1).jpg"></div>
+<p>South America is a subcontinent or continent and the southern part of America. It is located entirely in the Western Hemisphere and mainly in the Southern Hemisphere. It is bordered to the west by the Pacific Ocean and to the north and east by the Atlantic Ocean.<br>
+Portuguese and Spanish are the two languages with the highest number of speakers in South America.<br>
+South America has an area of 17,840,000 km2, or 11.9% of the Earth's land surface. As of 2015, its population is about 410 million.</p>
+<h2> All South American countries:</h2>
+<div class="blocPays">
+        <div class="image"><a
+            href="https://gifex.com/fr/fichier/carte-de-l-amerique-du-sud/"><img
+              src="globe/colombia.jpg"></a>
+       </div>
+	<h2>Colombia</h2>
+<a href="colombia.html">To know about this country.</a>
+</div>
+
+
+
+
+
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+  document.querySelectorAll(".world").forEach(function(world){
+    world.style.border="2px solid Black"
+  });
+  document.querySelectorAll(".blocPays:nth-child(odd)").forEach(function (element) {
+    element.style.backgroundColor='lightpurple';
+    element.style.padding='5px';
+  });
+});
+</script>
+</body>
+</html>

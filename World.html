@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">    
+  <link rel="stylesheet" href="le_monde.css">
+  <title>World</title>
+  <meta name="author" content="Marie Salomon">
+</head>
+<body>
+  <div class="conteneur">
+    <h1>World</h1>
+    <header>
+      The data and illustrations presented on this page come from,
+      <a href="https://www.atlas-monde.net/tous-les-pays/">using this query.</a><p>
+    </header>
+<img src="continent/globe/monde.gif">
+<p>There are 198 countries recognized by the UN in the world.
+The breakdown by continent is as follows:</p>
+<div class="blocPays">
+        <div class="image"><a
+            href="https://gifex.com/fr/fichier/ou-se-trouve-l-afrique/"><img
+              src="continent/globe/africa.jpg"></a>
+       </div>
+	<h2>Africa</h2>
+<p>number of country : 54</p>
+<a href="continent/africa.html">To know about this continent .</a>
+</div>
+
+<div class="blocPays">
+	<div class="image"><a
+            href="https://gifex.com/fr/fichier/carte-de-l-amerique/"><img
+              src="continent/globe/amerique.jpg"></a>
+       	</div>
+	<h2>America</h2>
+<p>number of country : 35</p>
+<a href="continent/america.html">To know about this continent </a>
+</div>
+
+<div class="blocPays">
+<div class="image"><a
+            href="https://gifex.com/fr/fichier/carte-de-l-asie/"><img
+              src="continent/globe/asia.jpg"></a>
+       </div>
+	<h2>Asia</h2>
+<p>number of country : 47</p>
+<a href="continent/asia.html">To know about this continent .</a>
+</div>
+
+<div class="blocPays">
+<div class="image"><a
+            href="https://gifex.com/fr/fichier/carte-de-l-oceanie/"><img
+              src="continent/globe/australia.jpg"></a>
+       </div>
+	<h2>Oceania</h2>
+<p>number of country : 16</p>
+<a href="continent/oceanie.html">To know about this continent .</a>
+</div>
+
+<div class="blocPays">
+	<div class="image"><a
+            href="https://gifex.com/fr/fichier/carte-de-l-europe/"><img
+              src="continent/globe/europe.jpg"></a>
+      	</div>
+	<h2>Europe</h2>
+<p>number of country : 46</p>
+<a href="continent/europe.html">To know about this continent .</a>
+</div>
+
+<footer>
+        <h1>Mentions légales</h1>
+        <p>
+            Site édité par Salomon Marie
+	</p>
+        <p>
+            Le code de cette page est un logiciel libre mis à disposition sous 
+            <a href="https://www.gnu.org/licenses/gpl-3.0.html">licence M-I</a>. Vous pouvez le redistribuer ou le
+            modifier suivant les termes de la GNU General Public License telle que publiée par la Free Software
+            Foundation&nbsp;; soit la version 3 de la licence, soit (à votre gré) toute version ultérieure.
+            Ce programme est distribué dans l'espoir qu'il sera utile, mais <strong>sans aucune garantie</strong>&nbsp;; sans même la garantie
+            tacite de <strong>qualité marchande</strong> ou d'<strong>adéquation</strong> à <strong>un but particulier</strong>. Consultez la GNU General Public License
+            pour plus de détails.
+            Vous devez avoir reçu une copie de la GNU General Public License en même temps que ce programme&nbsp;; si ce
+            n'est pas le cas, consultez <a href="http://www.gnu.org/licenses">http://www.gnu.org/licenses</a>.
+        </p>
+    </footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+  document.querySelectorAll(".world").forEach(function(world){
+    world.style.border="2px solid Black"
+  });
+  document.querySelectorAll(".blocPays:nth-child(odd)").forEach(function (element) {
+    element.style.backgroundColor='lightpurple';
+    element.style.padding='5px';
+  });
+});
+</script>
+</body>
+</html>

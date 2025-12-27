@@ -1,0 +1,38 @@
+body {
+      font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    }
+
+img {
+      position: relative;
+    }
+
+.image {
+      overflow: hidden;
+    }
+
+.conteneur {
+      height: 1000px
+    }
+
+h1, header {
+      font-family: Courier New, monospace;
+      text-align: center
+    }
+h2{
+      font-family: Courier New, monospace;
+}
+strong{
+      font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+citation{
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+        text-align: right;
+}
+.blocPays {
+      display: inline-block;
+      width: 200px;
+      margin: auto;
+      background-color: white;
+      text-align: center;
+      margin: 20px;
+    }

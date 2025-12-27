@@ -1,0 +1,35 @@
+body {
+      font-family: Calibri
+    }
+
+img {
+      width: 100%;
+      position: relative;
+    }
+
+.image {
+      overflow: hidden;
+    }
+
+.blocPays {
+      display: inline-block;
+      width: 200px;
+      margin: auto;
+      background-color: white;
+      text-align: center;
+      margin: 20px;
+    }
+
+.petit {
+	width:30%;
+	float:right;
+    }
+    
+.conteneur {
+      height: 1000px
+    }
+
+h1, header {
+      font-family: Courier New, monospace;
+      text-align: center
+    }
